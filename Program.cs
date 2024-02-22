@@ -311,7 +311,7 @@ public class Game
     {
         Console.WriteLine("Game Over!");
         Console.WriteLine($"Player 1 gems collected: {player1.GemCount}");
-        Console.WriteLine($"Player 2 gems: {player2.GemCount}");
+        Console.WriteLine($"gems collected by Player 2: {player2.GemCount}");
 
         if (player1.GemCount > player2.GemCount)
             Console.WriteLine("Player 1 wins!");
