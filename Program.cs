@@ -258,7 +258,7 @@ public class Game
         {
             Console.WriteLine($"Turn {totalTurns + 1}");
             board.Display();
-            Console.WriteLine($"Current Player: {currentTurn.Name}");
+            Console.WriteLine($"Currently game is Playing by: {currentTurn.Name}");
             Console.Write("Enter direction (U/D/L/R): ");
             char direction = char.ToUpper(Console.ReadKey().KeyChar);
             Console.WriteLine();
